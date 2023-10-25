@@ -1,8 +1,8 @@
 package frames
 
-var Forrest = DefaultFrameType(forrestFrames)
+var man = DefaultFrameType(manFrames)
 
-var forrestFrames = []string{
+var manFrames = []string{
 	`
      #
     ###
