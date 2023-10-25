@@ -1,29 +1,23 @@
 package frames
 
-var man = DefaultFrameType(manFrames)
+var Man = DefaultFrameType(manFrames)
 
 var manFrames = []string{
-	`
-     #
-    ###
-     #
-    # #                                   
-`,
-	`
-      #
-     ###
-      #
-     # #
-`,
-	`
-       #
-      ###
-       #
-      # #
-`,
-	`
-        #
-       ###
-        #
-       # #
-`}
+	`                        #
+                      ###
+                       #
+                      # #
+                  `,
+
+	`                         #
+                       ###
+                        #
+                       # #
+                  `,
+
+	`                          #
+                        ###
+                         #
+                        # #
+                  `,
+}
